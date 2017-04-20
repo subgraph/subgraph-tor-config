@@ -1,0 +1,18 @@
+Source: subgraph-tor-config
+Section: config
+Priority: extra
+Maintainer: David McKinney <mckinney@subgraph.com>
+Build-Depends: debhelper (>= 9), config-package-dev, tor 
+Standards-Version: 3.9.6
+Homepage: https://subgraph.com/sgos/index.en.html
+#Vcs-Git: git://anonscm.debian.org/collab-maint/subgraph-tor-config.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/subgraph-tor-config.git;a=summary
+
+Package: subgraph-tor-config
+Architecture: any
+Depends: ${misc:Depends}, roflcoptor, procsnitchd
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Tor configuration package for Subgraph OS.
+ This configuration package includes the default settings for /etc/tor/torrc
+ to be used with Subgraph OS.
