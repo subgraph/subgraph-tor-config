@@ -1,3 +1,10 @@
+subgraph-tor-config (0.5.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * git-buildpackage
+
+ -- Alexsandr Kibal <ak@subgraph.com>  Sun, 23 Apr 2017 18:57:11 +0000
+
 subgraph-tor-config (0.5) unstable; urgency=medium
 
   * Added roflcoptor and procsnitchd under Depends.

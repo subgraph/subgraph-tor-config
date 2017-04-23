@@ -10,7 +10,7 @@ Homepage: https://subgraph.com/sgos/index.en.html
 
 Package: subgraph-tor-config
 Architecture: any
-Depends: ${misc:Depends}, roflcoptor, procsnitchd
+Depends: ${misc:Depends}, roflcoptor
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Tor configuration package for Subgraph OS.
